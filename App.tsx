@@ -6,15 +6,25 @@ import type { StackParamList } from "./types";
 import Wallet  from "./Examples/Wallet/Wallet";
 import {View} from "react-native"
 
+import SkiaExample from "./Examples/SkiaExample";
+
 const App = () => {
 
  // const Stack = createNativeStackNavigator<StackParamList>();
+ console.log("Math.PI", Math.PI)
  
   return (
 
     <GestureHandlerRootView style={{ flex: 1 }}>
       <View>
+
+      {/*
       <Wallet/>
+      */}
+
+      <SkiaExample />
+
+    
       </View>
                   
 
